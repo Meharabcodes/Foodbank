@@ -97,3 +97,44 @@ button{
     line-height: 24px;
 }
 
+.order-food--btn{
+    margin-top: 20px;
+}
+
+
+
+/* .........................My-Recipies-Section.................... */
+
+.our-recipies{
+    margin-top: 50px;
+}
+.recipies-head{
+    text-align: center;
+    line-height: 24px;
+}
+
+.recipies-items{
+    display: flex;
+    justify-content: center;
+
+}
+
+
+.recipies-head h1{
+    color: rgb(255, 159, 68);
+}
+
+.item{
+    background-color: rgb(255, 248, 232);
+    width: 20%;
+    padding: 20px;
+    border-radius: 20px;
+    text-align: center;
+    margin: 20px;
+    box-shadow: 2px 1px 10px #c0c0c0;
+}
+
+.item img{
+    height: 250px;
+    border-radius: 20px;
+}
