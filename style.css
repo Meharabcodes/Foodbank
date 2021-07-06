@@ -132,16 +132,21 @@ span{
 .item{
     background-color: rgb(255, 248, 232);
     width: 20%;
+    text-align: left;
     padding: 20px;
     border-radius: 20px;
-    text-align: left;
     line-height: 24px;
     margin: 20px;
     box-shadow: 2px 1px 10px rgba(0, 0, 0, .15);
 }
 
+.item .card-img{
+    display: flex;
+    justify-content: center;
+}
+
 .item img{
-    height: 250px;
+    width: 100%;
     border-radius: 20px;
 }
 
