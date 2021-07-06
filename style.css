@@ -12,7 +12,7 @@ body{
 }
 
 .nav-bar .half-width h3{
-    color: rgb(255, 159, 68);
+    color: rgb(255, 158, 66);
 }
 
 .nav-bar .half-width .cetagories p{
@@ -26,3 +26,74 @@ body{
 .cetagories p{
     margin-left: 30px;
 }
+
+
+/* ...........................header-section............................ */
+
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 140px;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.header .half-width img{
+    height: 500px;
+   
+}
+
+.header .half-width h1{
+    font-size: 24pt;
+    color: rgb(37, 37, 37);
+}
+
+.header .half-width p{
+    line-height: 24px;
+}
+
+
+span{
+    color: rgb(255, 159, 68);
+}
+
+button{
+    border: none;
+    background-image: linear-gradient(45deg, rgb(255, 158, 66), rgb(253, 105, 19));
+    padding: 10px 20px;
+    border-radius: 20px;
+    color: white;
+}
+
+
+/* .............................about-us-section.......................... */
+
+
+.about-us{
+    background-image: url("./images/shapes/7.png");
+    width: 100%;
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    
+}
+
+.about-us .half-width{
+    width: 50%;
+    padding-right: 140px;
+}
+
+.about-us .half-width img{
+    margin-top: 80px;
+    margin-bottom: -5px;
+}
+
+.about-us .half-width h1{
+    color: rgb(255, 159, 68);
+}
+
+.about-us .half-width p{
+    line-height: 24px;
+}
+
